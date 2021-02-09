@@ -16,12 +16,22 @@ body {
 }
 
 .container {
-  width: 70%;
+  width: 80%;
   margin: auto;
 }
 
 .non-bold {
   font-weight: 200;
+}
+
+.header-para {
+  font-weight: 200;
+}
+
+.card {
+  display: inline-flex;
+  flex-direction: column;
+  border: 1px solid #333;
 }
 
 .attribution {
