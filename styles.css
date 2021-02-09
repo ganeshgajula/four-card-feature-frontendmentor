@@ -20,18 +20,58 @@ body {
   margin: auto;
 }
 
+h1 {
+  text-align: center;
+}
+
 .non-bold {
   font-weight: 200;
 }
 
 .header-para {
+  display: block;
+  font-weight: 200;
+  text-align: center;
+}
+
+.text-para {
   font-weight: 200;
 }
 
 .card {
   display: inline-flex;
   flex-direction: column;
+  justify-content: space-between;
   border: 1px solid #333;
+  height: 100%;
+  width: 320px;
+  padding: 1rem;
+  margin: 0.8rem;
+}
+
+.cards-collection {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.image {
+  align-self: flex-end;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-1,
+.card-4 {
+  align-self: center;
+}
+
+.text-content {
+  width: 70%;
+  margin-bottom: 1rem;
 }
 
 .attribution {
