@@ -111,7 +111,36 @@ h3 {
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 360px) {
+@media (max-width: 321px) {
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  .header-para {
+    width: 250px;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 250px;
+    height: 225px;
+  }
+
+  .cards-collection {
+    align-self: center;
+  }
+}
+
+@media (min-width: 322px) and (max-width: 360px) {
   .container {
     width: 95%;
     margin: auto;
@@ -122,7 +151,7 @@ h3 {
   }
 
   .header-para {
-    width: 95%;
+    width: 310px;
   }
 
   .card-container {
@@ -145,12 +174,13 @@ h3 {
     width: 95%;
     margin: auto;
   }
+
   h1 {
     font-size: 1.7rem;
   }
 
   .header-para {
-    width: 95%;
+    width: 340px;
   }
 
   .card-container {
@@ -166,4 +196,32 @@ h3 {
   .card-3 {
     align-self: center;
   } */
+}
+
+@media (min-width: 501px) and (max-width: 1100px) {
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .header-para {
+    width: 400px;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards-collection {
+    align-self: center;
+  }
+
+  .card {
+    width: 400px;
+  }
 }
