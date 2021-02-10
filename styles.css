@@ -69,7 +69,7 @@ h1 {
 .cards-collection {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .image {
@@ -109,4 +109,61 @@ h3 {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 360px) {
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .header-para {
+    width: 95%;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 310px;
+    height: 230px;
+  }
+
+  .cards-collection {
+    align-self: center;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 500px) {
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  .header-para {
+    width: 95%;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards-collection {
+    align-self: center;
+  }
+
+  /* .card-2,
+  .card-3 {
+    align-self: center;
+  } */
 }
